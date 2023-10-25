@@ -11,3 +11,5 @@ class Scoreboard(Turtle):
         self.penup()
         self.goto(-100, 200)
         self.write(self.leftScore, align="center", font=("courier", 40, "normal"))
+        self.goto(100, 200)
+        self.write(self.rightScore, align="center", font=("courier", 40, "normal"))
